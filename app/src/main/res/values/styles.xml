@@ -1,0 +1,24 @@
+<resources>
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxBackgroundMode">none</item>
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+
+    <style name="CustomTextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textColorHint">@color/primary</item>
+        <item name="android:background">@drawable/bottom_border</item>
+    </style>
+
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>
