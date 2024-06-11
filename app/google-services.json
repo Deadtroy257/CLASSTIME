@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "604945379243",
+    "project_id": "classtime-ca0f6",
+    "storage_bucket": "classtime-ca0f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604945379243:android:aa39705272b4a4c2e82cee",
+        "android_client_info": {
+          "package_name": "com.example.classtime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmABkY3O_GS3SWqn0PAWXg9J24uG2crHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

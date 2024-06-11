@@ -22,6 +22,7 @@
             android:src="@drawable/ic_back"
             android:layout_gravity="start" />
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="699dp"
@@ -34,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="80dp"
+                android:layout_marginBottom="70dp"
                 android:contentDescription="@string/app_name"
                 android:src="@drawable/ic_logo" />
 
@@ -44,13 +45,28 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="80dp"
+                android:layout_marginBottom="50dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:text="Bienvenido"
                 android:textColor="@color/primary"
                 android:textSize="50sp"
                 android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/update_password_button"
+                android:layout_width="292dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="@color/primary"
+                android:paddingLeft="40dp"
+                android:text="Cambiar Contraseña"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                app:icon="@drawable/ic_password"
+                app:iconGravity="textEnd"
+                app:iconSize="35sp" />
 
             <Button
                 android:id="@+id/add_schedule_button"

@@ -39,6 +39,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     style="@style/CustomTextInputEditText"
+                    android:id="@+id/user"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Usuario"
@@ -54,6 +55,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     style="@style/CustomTextInputEditText"
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Contraseña"

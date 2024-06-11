@@ -19,6 +19,13 @@ class HomeActivity : AppCompatActivity(){
             startActivity(intent)
         }
 
+        //update_password_button
+        val updatePassword: Button = findViewById(R.id.update_password_button)
+        updatePassword.setOnClickListener {
+            val intent = Intent(this, UpdatePasswordActivity::class.java)
+            startActivity(intent)
+        }
+
         // Configurar botón de añandir horario
         val addSchedule: Button = findViewById(R.id.add_schedule_button)
         addSchedule.setOnClickListener {

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ClassTime"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +25,9 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".HomeActivity" />
+        <activity android:name=".UpdatePasswordActivity" />
         <activity android:name=".ScheduleActivity" />
+        <activity android:name=".ViewScheduleActivity" />
 
     </application>
 

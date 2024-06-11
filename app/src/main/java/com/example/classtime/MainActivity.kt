@@ -6,17 +6,22 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.content.Intent
+import android.os.Handler
 
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Iniciar la actividad de inicio de sesión cuando se cree la actividad principal
-        val intent = Intent(this, LoginActivity::class.java)
-        startActivity(intent)
+        setContentView(R.layout.activity_splash)
 
-        // Finalizar la actividad principal para que no se pueda volver atrás desde la pantalla de inicio de sesión
-        finish()
+        // Temporizador para mostrar la pantalla de inicio durante 3 segundos
+        window.decorView.postDelayed({
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }, 3000) // 3000 milisegundos (3 segundos)
+
+
     }
 }

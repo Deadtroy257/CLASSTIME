@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="80dp"
+                android:layout_marginBottom="20dp"
                 android:contentDescription="@string/app_name"
                 android:src="@drawable/ic_logo" />
 
@@ -55,10 +55,11 @@
                 style="@style/CustomTextInputLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="50dp">
+                android:layout_marginBottom="40dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     style="@style/CustomTextInputEditText"
+                    android:id="@+id/title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Titulo"
@@ -83,7 +84,7 @@
             <Button
                 android:id="@+id/add_schedule_button"
                 android:layout_width="292dp"
-                android:layout_height="80dp"
+                android:layout_height="65dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="40dp"
                 android:backgroundTint="@color/primary"
